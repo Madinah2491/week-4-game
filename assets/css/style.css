@@ -1,0 +1,28 @@
+.heading {
+    background: blueviolet;
+    color: rgb(203, 216, 25);
+    padding: 20px;
+    width: 45%
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+
+}
+
+body{
+    background: gold;
+    text-align: center;
+    color: green;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
+
+p {
+    padding-top: 10px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p1 {
+    font-family: 'Montserrat', sans-serif;
+    float: 
+}
