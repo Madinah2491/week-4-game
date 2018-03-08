@@ -1,28 +1,29 @@
 .heading {
-    background: blueviolet;
-    color: rgb(203, 216, 25);
+    background: rgba(189, 116, 116, 0.788);
+    color:aquamarine;
     padding: 20px;
     width: 45%
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script' cursive;
     font-size: 45px;
 
 }
 
 body{
-    background: gold;
-    text-align: center;
-    color: green;
+    background: blueviolet;
+    color: white;
     font-family: 'Kaushan Script', cursive;
     font-size: 20px;
 }
 
-p {
-    padding-top: 10px;
+p p1 p2 p3 {
+    padding-top: 20px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
 }
 
-p1 {
-    font-family: 'Montserrat', sans-serif;
-    float: 
+amethyst-button {
+    padding: 30px;
+    border: black;
+
+
 }

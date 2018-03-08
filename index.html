@@ -6,12 +6,12 @@
 
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-        <h1 class= heading>Crystals Collector</h1>
+        <h1 class= "heading">Crystals Collector</h1>
 
         <ol>Player will be shown a random number at the start of the game.
         
@@ -21,15 +21,28 @@
         
             <ul>* Your game will hide this amount until the player clicks a crystal.</ul>
 
-            <ul>* When player does click one, update the player's score will update.</ul>
+            <ul>* When player does click a crystal, the score will update.</ul>
         
         </ol>
 
+        <br> <br> 
+        <div class ="target">Target Number:
+        <!-- Random-button to generate random target number -->
+        <button id="random-button" class="btn btn-primary btn-lg"><h1>#</h1></button>
+        </div>
+        <br>
+
         <p>WINS:</p>
-        <p>Losses:</p>
-        <br> <br> <br>
-        <p1>Target Number</p1>
-        <p1>Total Score:</p1>
+        <p1>Losses:</p1>
+        <br> 
+        <div class="button">
+        <button id="amethyst-button" class="btn btn-primary btn-sm"><p1><img src="assets/images/amethyst.jpg" alt="amethyst crystal" width="100px" height="100px"></p1></button>
+        <button id="crystal-button" class="btn btn-primary btn-sm"><p1><img src="assets/images/crystal.jpg" alt="crystal crystal" width="100px" height="100px"></p1></button>
+        <button id="black-button" class="btn btn-primary btn-sm"><p1><img src="assets/images/black.jpg" alt="black crystal" width="100px" height=100px"></p1></button>
+        <button id="celestine-button" class="btn btn-primary btn-sm"><p1><img src="assets/images/celestine.jpg" alt="celestine crystal" width="100px" height="100px"></p1></button>
+        </div>
+        <br>
+        <p3>Total Score:</p3>
 </body>
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 
