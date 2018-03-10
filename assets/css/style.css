@@ -2,7 +2,8 @@
     background: rgba(189, 116, 116, 0.788);
     color:aquamarine;
     padding: 20px;
-    width: 45%
+    text-align: center;
+    width: 95%;
     font-family: 'Kaushan Script' cursive;
     font-size: 45px;
 
@@ -19,11 +20,4 @@ p p1 p2 p3 {
     padding-top: 20px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-}
-
-amethyst-button {
-    padding: 30px;
-    border: black;
-
-
 }

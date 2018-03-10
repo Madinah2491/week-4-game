@@ -11,39 +11,47 @@
 
 <body>
 
-        <h1 class= "heading">Crystals Collector</h1>
+  <h1 class= "heading">Crystals Collector</h1>
 
-        <ol>Player will be shown a random number at the start of the game.
-        
-            <ul>Match your total score to the random number from the beginning of the game and Win!</ul>
+  <ol>
+    <ul>Match your total score to the target number from the beginning of the game and Win!</ul>
 
-            <ul>Click on any crystal, it will add a specific amount of points to your player's total score, shown at the bottom. </ul>
-        
-            <ul>* Your game will hide this amount until the player clicks a crystal.</ul>
+    <ul>Click on any crystal, it will add a specific amount of points to your player's total score, shown at the bottom. </ul>
 
-            <ul>* When player does click a crystal, the score will update.</ul>
-        
-        </ol>
+    <ul>* Your game will hide this amount until the player clicks a crystal.</ul>
 
-        <br> <br> 
-        <div class ="target">Target Number:
-        <!-- Random-button to generate random target number -->
-        <button id="random-button" class="btn btn-primary btn-lg"><h1>#</h1></button>
-        </div>
-        <br>
+    <ul>* When player does click a crystal, the score will update.</ul>
 
-        <p>WINS:</p>
-        <p1>Losses:</p1>
-        <br> 
-        <div class="button">
-        <button id="amethyst-button" class="btn btn-primary btn-sm"><p1><img src="assets/images/amethyst.jpg" alt="amethyst crystal" width="100px" height="100px"></p1></button>
-        <button id="crystal-button" class="btn btn-primary btn-sm"><p1><img src="assets/images/crystal.jpg" alt="crystal crystal" width="100px" height="100px"></p1></button>
-        <button id="black-button" class="btn btn-primary btn-sm"><p1><img src="assets/images/black.jpg" alt="black crystal" width="100px" height=100px"></p1></button>
-        <button id="celestine-button" class="btn btn-primary btn-sm"><p1><img src="assets/images/celestine.jpg" alt="celestine crystal" width="100px" height="100px"></p1></button>
-        </div>
-        <br>
-        <p3>Total Score:</p3>
+  </ol>
+
+  <br> 
+  <br>
+
+  <div class="target">
+    <h1 class="text-center">Target Number:</h1>
+    <div class="text-center">
+    <!-- Random-button to generate random target number -->
+    <button id="random-button" class="btn btn-primary btn-lg"><h1>??</h1></button>
+    </div>
+  </div>
+  <h1 class="text-center" id="random-number"></h1>
+
+  <br>
+
+  <p>WINS:</p>
+  <p>Losses:</p>
+  <br> 
+  <div class="button">
+  <button id ="button-1" class="btn btn-primary btn-sm"><p1><img src="assets/images/amethyst.jpg" alt="amethyst" width="100px" height="100px"></p1></button>
+  <button id ="button-2" class="btn btn-primary btn-sm"><p1><img src="assets/images/crystal.jpg" alt="crystal" width="100px" height="100px"></p1></button>
+  <button id ="button-3" class="btn btn-primary btn-sm"><p1><img src="assets/images/black.jpg" alt="black" width="100px" height="100px"></p1></button>
+  <button id ="button-4" class="btn btn-primary btn-sm"><p1><img src="assets/images/celestine.jpg" alt="celestine" width="100px" height="100px"></p1></button>
+  </div>
+  <br>
+  <p2>Total Score:</p2>
 </body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </html>
