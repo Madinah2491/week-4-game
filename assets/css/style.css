@@ -3,7 +3,7 @@
     color:aquamarine;
     padding: 20px;
     text-align: center;
-    width: 95%;
+    width: 100%;
     font-family: 'Kaushan Script' cursive;
     font-size: 45px;
 
@@ -16,7 +16,11 @@ body{
     font-size: 20px;
 }
 
-p p1 p2 p3 {
+.target{
+    text-align: center;
+}
+
+p p1 p2 {
     padding-top: 20px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
